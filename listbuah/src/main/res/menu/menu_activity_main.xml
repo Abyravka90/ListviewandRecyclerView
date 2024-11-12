@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/menu_list"
+    android:title="Kebawah"
+    app:showAsAction="ifRoom"/>
+<!--    list view -->
+    <item
+    android:id="@+id/menu_grid"
+    android:title="Kesamping"
+    app:showAsAction="ifRoom"/>
+</menu>
+<!-- Grid View -->
+<!-- membuat menu
+1. pada folder res klik kanan buat new directory bernama menu
+2. pada directory tersebut klik kanan new lalu pilih Menu Resource file
+-->
